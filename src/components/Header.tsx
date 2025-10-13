@@ -52,7 +52,8 @@ const Header: React.FC<HeaderProps> = ({ sections, theme, toggleTheme }) => {
           onClick={() => scrollToSection(sections.home)}
           className="text-2xl font-bold text-accent-light dark:text-accent cursor-pointer transition-transform duration-300 hover:scale-105"
         >
-          <img src="/Karan.png" alt="Karan Devkate" className="h-12 w-12 rounded-full object-cover" />
+          <img src={`${process.env.PUBLIC_URL}/Karan.png`} alt="Karan Devkate" className="h-12 w-12 rounded-full object-cover" />
+
         </div>
         <nav className="hidden md:flex items-center space-x-6">
           {navLinks.map((link, index) => (
@@ -66,7 +67,7 @@ const Header: React.FC<HeaderProps> = ({ sections, theme, toggleTheme }) => {
             </button>
           ))}
           <a
-            href="/assets/Karan_Devkate_Resume.pdf"
+            href={`${process.env.PUBLIC_URL}/assets/Karan_Devkate_Resume.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             className="border border-accent-light dark:border-accent text-accent-light dark:text-accent px-4 py-2 rounded hover:bg-accent-light/10 dark:hover:bg-accent/10 transition-colors duration-300"

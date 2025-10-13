@@ -94,7 +94,7 @@ const Home: React.FC = () => {
                 <div className="relative w-64 h-64 md:w-80 md:h-80">
                     <div className="absolute inset-0 border-2 border-accent-light dark:border-accent rounded-full transform rotate-6 transition-transform duration-300"></div>
                     <img
-                        src="/assets/Karan Devkate.png"
+                        src={`${process.env.PUBLIC_URL}/assets/Karan Devkate.png`}
                         alt="Karan Krishnath Devkate"
                         className="w-full h-full object-cover rounded-full shadow-2xl relative"
                     />
