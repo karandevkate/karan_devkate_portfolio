@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/karan_devkate_portfolio/static/css/main.eb28ee4d.css",
+    "main.js": "/karan_devkate_portfolio/static/js/main.86cd3fad.js",
+    "static/js/453.e77877fb.chunk.js": "/karan_devkate_portfolio/static/js/453.e77877fb.chunk.js",
+    "index.html": "/karan_devkate_portfolio/index.html",
+    "main.eb28ee4d.css.map": "/karan_devkate_portfolio/static/css/main.eb28ee4d.css.map",
+    "main.86cd3fad.js.map": "/karan_devkate_portfolio/static/js/main.86cd3fad.js.map",
+    "453.e77877fb.chunk.js.map": "/karan_devkate_portfolio/static/js/453.e77877fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb28ee4d.css",
+    "static/js/main.86cd3fad.js"
+  ]
+}
