@@ -144,7 +144,8 @@ function Navbar({ scrolled, isMenuOpen, setIsMenuOpen }) {
             </a>
           ))}
           <a 
-            href="/Karan_Devkate_Java_Developer.pdf" 
+            href="Karan_Devkate_Java_Developer.pdf" 
+            download="Karan_Devkate_Java_Developer.pdf"
             target="_blank"
             className="px-6 py-2 border border-white/20 rounded-full text-sm font-medium hover:bg-white hover:text-black transition-all"
           >
@@ -760,6 +761,14 @@ function Footer() {
           </div>
           
           <div className="text-on-surface-variant text-sm font-label">
+            © {new Date().getFullYear()} ALL RIGHTS RESERVED
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
+"text-on-surface-variant text-sm font-label">
             © {new Date().getFullYear()} ALL RIGHTS RESERVED
           </div>
         </div>
