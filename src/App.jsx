@@ -227,7 +227,7 @@ function Hero() {
                   <a href="https://github.com/karandevkate" target="_blank" className="p-4 border border-white/10 rounded-full hover:bg-white/5 transition-colors">
                     <Github size={24} />
                   </a>
-                  <a href="https://linkedin.com/in/karan-devkate" target="_blank" className="p-4 border border-white/10 rounded-full hover:bg-white/5 transition-colors">
+                  <a href="https://www.linkedin.com/in/karandevkate/" target="_blank" className="p-4 border border-white/10 rounded-full hover:bg-white/5 transition-colors">
                     <Linkedin size={24} />
                   </a>
                 </div>
@@ -243,7 +243,7 @@ function Hero() {
           >
             <div className="relative z-10 w-[400px] h-[500px] mx-auto rounded-[60px] overflow-hidden border border-white/10 glass-card">
               <img 
-                src="/Karan.png" 
+                src="Karan.png" 
                 alt="Karan Krishnath Devkate" 
                 className="w-full h-full object-cover"
               />
@@ -756,7 +756,7 @@ function Footer() {
           
           <div className="flex gap-8">
             <a href="https://github.com/karandevkate" target="_blank" className="text-on-surface-variant hover:text-primary transition-colors">GITHUB</a>
-            <a href="https://linkedin.com/in/karan-devkate" target="_blank" className="text-on-surface-variant hover:text-primary transition-colors">LINKEDIN</a>
+            <a href="https://www.linkedin.com/in/karandevkate/" target="_blank" className="text-on-surface-variant hover:text-primary transition-colors">LINKEDIN</a>
           </div>
           
           <div className="text-on-surface-variant text-sm font-label">
