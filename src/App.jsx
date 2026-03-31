@@ -414,7 +414,7 @@ function Projects() {
       solution: 'Developed an automated payroll backend using Spring Boot and PostgreSQL, containerized it with Docker, and deployed it using Ansible Playbooks with securely managed secrets. Implemented scheduled payroll processing and automated salary slip generation.',
       outcome: 'Reduced payroll processing time by 70%, eliminated manual errors, and increased operational reliability.',
       tags: ['Spring Boot', 'PostgreSQL', 'Docker', 'Ansible', 'Secrets Management'],
-      image: 'https://picsum.photos/seed/payroll/800/600'
+      image: 'paymaster.png'
     },
     {
       title: 'Company Rating Application',
@@ -422,7 +422,7 @@ function Projects() {
       solution: 'Built the application using independent Spring Boot microservices, integrating Eureka Server for service discovery, an API Gateway for routing, WebClient for inter-service communication, and PostgreSQL for reliable data handling.',
       outcome: 'Enhanced scalability and modular deployments by approximately 70%, leading to faster response times and smoother maintenance.',
       tags: ['Microservices', 'Eureka', 'Spring Cloud', 'WebClient', 'API Gateway'],
-      image: 'https://picsum.photos/seed/rating/800/600'
+      image: 'rating.png'
     }
   ];
 
@@ -442,16 +442,16 @@ function Projects() {
               whileHover={{ y: -10 }}
               className="group relative flex flex-col h-full overflow-hidden rounded-[40px] glass-card"
             >
-              <div className="relative h-64 overflow-hidden">
+              <div className="relative h-64 overflow-hidden bg-white">
                 <img 
                   src={project.image} 
                   alt={project.title} 
-                  className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:scale-110 transition-transform duration-700"
+                  className="absolute inset-0 w-full h-full object-contain p-12 group-hover:scale-110 transition-transform duration-700"
                   referrerPolicy="no-referrer"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
                 <div className="absolute bottom-6 left-12 right-12">
-                   <h3 className="text-3xl font-display font-bold">{project.title}</h3>
+                   <h3 className="text-3xl font-display font-bold text-black drop-shadow-sm">{project.title}</h3>
                 </div>
               </div>
               
