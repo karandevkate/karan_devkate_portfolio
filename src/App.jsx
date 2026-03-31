@@ -246,7 +246,8 @@ function Hero() {
               <img 
                 src="Karan.png" 
                 alt="Karan Krishnath Devkate" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                style={{ maskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)', WebkitMaskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)' }}
               />
             </div>
             {/* Background Accent */}
@@ -761,15 +762,7 @@ function Footer() {
           </div>
           
           <div className="text-on-surface-variant text-sm font-label">
-            © {new Date().getFullYear()} ALL RIGHTS RESERVED
-          </div>
-        </div>
-      </div>
-    </footer>
-  );
-}
-"text-on-surface-variant text-sm font-label">
-            © {new Date().getFullYear()} ALL RIGHTS RESERVED
+            &copy; {new Date().getFullYear()} ALL RIGHTS RESERVED
           </div>
         </div>
       </div>
